@@ -1,5 +1,6 @@
 # pub-action-get-content
-"This action fetches the content of the specified repository. The inputs are:
+
+"This action fetches the content of the specified repository, optionally replacing placeholder attributes as depicted below, and downloads the updated file to the current directory. The inputs are:
 
 owner: The owner of the repository (required).
 
