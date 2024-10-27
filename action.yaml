@@ -14,7 +14,7 @@ inputs:
     description: 'The path name'
     required: true
   placeholder_attributes:
-    description: 'The list of attributes in the files that you like to substitute, if  enter ATRTRIBUTE=VALUE, ATRTRIBUTE:VALUE  for {{{ATRTRIBUTE}}}, for list use comma delimitation   '
+    description: 'The list of attributes in the files that you like to substitute, if  enter ATTRIBUTE=VALUE, ATTRIBUTE:VALUE  for {{{ATTRIBUTE}}}, for list use comma delimitation   '
     required: false
   token:
     description: 'The github app token'
