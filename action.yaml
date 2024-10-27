@@ -1,5 +1,9 @@
-name: 'get repo content'
-description: 'get content from repo'
+name: 'bts-get-content'
+description: 'get content from repo for specific path'
+author: BTSavvy
+branding:
+  icon: box
+  color: orange
 inputs:
   owner:
     description: 'The owner of the repo'
