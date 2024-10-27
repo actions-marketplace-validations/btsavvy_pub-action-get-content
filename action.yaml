@@ -1,0 +1,27 @@
+name: 'get repo content'
+description: 'get content from repo'
+inputs:
+  owner:
+    description: 'The owner of the repo'
+    required: true
+  repo_name:
+    description: 'The name of the repo'
+    required: true
+  branch_name:
+    description: 'The branch name of the repo'
+    required: true
+  path_name:
+    description: 'The path name'
+    required: true
+  placeholder_attributes:
+    description: 'The list of attributes in the files that you like to substitute, if  enter ATRTRIBUTE=VALUE, ATRTRIBUTE:VALUE  for {{{ATRTRIBUTE}}}, for list use comma delimitation   '
+    required: false
+  token:
+    description: 'The github app token'
+    required: true
+outputs:
+  data:
+    description: 'The placeholder for any output data'
+runs:
+  using: 'docker'
+  image: 'docker://btsavvy/action-get-content:latest'
